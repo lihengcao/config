@@ -5,3 +5,4 @@ uua() { uu && separator && sudo apt autoremove -y; }
 a() { tmux new-session -A -s ${1:-main}; }
 d() { tmux detach; }
 
+alias rm='trash-rm'
